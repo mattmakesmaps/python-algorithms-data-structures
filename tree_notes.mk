@@ -1,4 +1,6 @@
-Properties of trees:
+# Introduction
+
+## Properties of trees:
 
 * Trees have a hierarchy each level of depth can represent
   a certain entity. E.g. Kingdom -> Phylum -> Class -> Order
@@ -61,3 +63,18 @@ the root node is zero.
 
 **Height:** The height of a tree is equal to the maximum level
 of any node in the tree. The height of the tree in Figure 2 is two.
+
+**Binary Tree:** A tree in which each node has a maximum of
+two children.
+
+A tree can be thought of using a recursive definition in which,
+"A tree is either empty or consists of a root and zero or more
+subtrees, each of which is also a tree."
+MK NOTE: So a leaf node would be an example of a tree with
+a root node and zero subtrees.
+
+# Implementation
+
+Can be implemented using a list of lists. In this setup,
+A root node with only a single child will dump that child
+into the left node placeholder. 
